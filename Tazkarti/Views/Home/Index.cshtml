@@ -1,0 +1,140 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    var login = TempData["login"];
+    int id = 0;
+    if(login is not null)
+    {
+        id = (int)TempData["id"];
+    }
+    
+    TempData.Keep();
+}
+@if (login is null)
+{
+    <div class="login-register">
+        <span class="sp"></span>
+        <a href="/home/signin"><button class="button button-transparent login width-auto" id="btn_login" tabindex="0">Sign in</button></a>
+        <span>or</span>
+        <a href="/home/register">
+            <button class="button button-green register width-auto" id="btn_register" tabindex="0">
+                <span>Register Now!</span>
+            </button>
+        </a>
+    </div>
+    <style>
+        .sp {
+            width: 1000px;
+        }
+
+        .login-register {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            padding: 10px 10px;
+            margin-left: 10px;
+            cursor: pointer;
+            border: none; /* Remove the border */
+        }
+
+        .button-transparent {
+            background-color: transparent;
+        }
+
+        .button-green {
+            background-color: #4CAF50; /* Green color */
+            color: white;
+        }
+
+        .width-auto {
+            width: auto;
+        }
+    </style>
+}
+else
+{
+    <div class="login-register">
+        <span class="sp"></span>
+        <p><a href="/home/mytickets/@id" class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">My Tickets</a></p>
+        <button class="button button-transparent login width-auto" id="btn_login" tabindex="0">Hello @login </button>
+        <span></span>
+        <a href="/home/logout">
+            <button class="button button-green register width-auto" id="btn_register" tabindex="0">
+                <span>Log out!</span>
+            </button>
+        </a>
+    </div>
+    <style>
+        .sp {
+            width: 900px;
+        }
+
+        .login-register {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            padding: 10px 10px;
+            margin-left: 10px;
+            cursor: pointer;
+            border: none; /* Remove the border */
+        }
+
+        .button-transparent {
+            background-color: transparent;
+        }
+
+        .button-green {
+            background-color: red;
+            color: white;
+        }
+
+        .width-auto {
+            width: auto;
+        }
+    </style>
+}
+@model List<Ticket>
+@{
+    string space = " ";
+}
+<div class="text-center">
+    <h3>
+		What is your next plan?
+	</h3>
+    <h3>
+        Explore and book all exclusive events and matches.
+    </h3>
+    <h2 class="display-4">Sports Match Tickets </h2>
+
+    <table class="table">
+        @foreach (var t in Model)
+        {
+            <tbody>
+                <tr>
+                    <td><h4 style="display:inline">@t.First_team</h4>@space VS @space<h4 style="display:inline">@t.Second_team</h4></td>
+                    <td>@t.Stade . Stadium,@t.City</td>
+                    <td>@t.Time</td>
+                    <td>@t.Price L.E</td>
+                    @if (t.NumOfTickets > 0 && t.Time > DateTime.Now.AddHours(1))
+                    {
+                        <td><a href="/home/book/@t.Id"><button type="button" style="width:150px " class="btn btn-primary">Book Ticket</button></a></td>
+                    }
+                    else if (t.Time < DateTime.Now.AddHours(1))
+                    {
+                        <td><a><button type="button" style="width:150px " class="btn btn-light">Ended</button></a></td>
+                    }
+                    else
+                    {
+                        <td><a><button type="button" style="width:150px " class="btn btn-secondary">No Tickets</button></a></td>
+                    }
+                </tr>
+            </tbody>
+        }
+    </table>
+
+</div>

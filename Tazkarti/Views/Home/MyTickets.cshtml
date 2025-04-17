@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "MyTickets";
+}
+
+<h1>MyTickets</h1>
+@model List<Ticket>
+@{
+    string space = " ";
+}
+<div class="text-center">
+
+    <table class="table">
+        @foreach (var t in Model)
+        {
+            <tbody>
+                <tr>
+                    <td><h2 style="display:inline">@t.First_team</h2>@space VS @space<h2 style="display:inline">@t.Second_team</h2></td>
+                    <td>@t.Stade . Stadium,@t.City</td>
+                    <td>@t.Time</td>
+                    <td>@t.Price L.E</td>
+                    @if (t.Time > DateTime.Now.AddHours(1))
+                    {
+                        <td><a href="/home/cancel/@t.Id"><button type="button" style="width:150px " class="btn btn-danger">Cancel</button></a></td>
+                    }
+                    else
+                    {
+                        <td><a><button type="button" style="width:150px " class="btn btn-light">Ended</button></a></td>
+                    }
+                    
+                </tr>
+            </tbody>
+        }
+    </table>
+
+</div>

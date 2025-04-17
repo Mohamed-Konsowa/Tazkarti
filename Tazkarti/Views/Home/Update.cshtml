@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Update";
+}
+
+<h1>Update</h1>
+
+@model Ticket
+<form method="post" action="/home/SaveUpdate/@Model.Id">
+    <h2>Update</h2>
+    <div class="mb-3">
+        <label for="ft" class="form-label">First Team</label>
+        <input type="text" name="first_team" class="form-control" value="@Model.First_team" id="ft" aria-describedby="emailHelp" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="st" class="form-label">Second Team</label>
+        <input type="text" name="second_team" class="form-control" value="@Model.Second_team" id="st" aria-describedby="emailHelp" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="s" class="form-label">Stade</label>
+        <input type="text" name="stade" class="form-control" value="@Model.Stade" id="s" aria-describedby="emailHelp" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="c" class="form-label">City</label>
+        <input type="text" name="city" class="form-control" value="@Model.City" id="c" aria-describedby="emailHelp" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="t" class="form-label">Time</label>
+        <input type="datetime-local" name="time" class="form-control" value="@Model.Time" id="t" aria-describedby="emailHelp" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="p" class="form-label">Price</label>
+        <input type="text" name="price" class="form-control" value="@Model.Price" id="p" aria-describedby="emailHelp" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="n" class="form-label">Number of tickets</label>
+        <input type="text" name="numoftickets" class="form-control" value="@Model.NumOfTickets" id="n" aria-describedby="emailHelp" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>

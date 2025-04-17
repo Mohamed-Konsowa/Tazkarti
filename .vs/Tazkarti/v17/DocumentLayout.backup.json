@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Backend .net\\ITI project\\Tazkarti\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|d:\\backend .net\\iti project\\tazkarti\\tazkarti\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|solutionrelative:tazkarti\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|d:\\backend .net\\iti project\\tazkarti\\tazkarti\\views\\home\\mytickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|solutionrelative:tazkarti\\views\\home\\mytickets.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|d:\\backend .net\\iti project\\tazkarti\\tazkarti\\views\\home\\addnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|solutionrelative:tazkarti\\views\\home\\addnew.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|d:\\backend .net\\iti project\\tazkarti\\tazkarti\\views\\home\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|solutionrelative:tazkarti\\views\\home\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|d:\\backend .net\\iti project\\tazkarti\\tazkarti\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|solutionrelative:tazkarti\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|d:\\backend .net\\iti project\\tazkarti\\tazkarti\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{807B53EB-8382-4DD8-A3EE-F22C30C6574B}|Tazkarti\\Tazkarti.csproj|solutionrelative:tazkarti\\views\\home\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyTickets.cshtml",
+              "DocumentMoniker": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\MyTickets.cshtml",
+              "RelativeDocumentMoniker": "Tazkarti\\Views\\Home\\MyTickets.cshtml",
+              "ToolTip": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\MyTickets.cshtml",
+              "RelativeToolTip": "Tazkarti\\Views\\Home\\MyTickets.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-18T01:13:44.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\Update.cshtml",
+              "RelativeDocumentMoniker": "Tazkarti\\Views\\Home\\Update.cshtml",
+              "ToolTip": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\Update.cshtml",
+              "RelativeToolTip": "Tazkarti\\Views\\Home\\Update.cshtml",
+              "ViewState": "AgIAACgAAAAASdTsHQAQwAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T22:29:08.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddNew.cshtml",
+              "DocumentMoniker": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\AddNew.cshtml",
+              "RelativeDocumentMoniker": "Tazkarti\\Views\\Home\\AddNew.cshtml",
+              "ToolTip": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\AddNew.cshtml",
+              "RelativeToolTip": "Tazkarti\\Views\\Home\\AddNew.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvysAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T22:21:00.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Tazkarti\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Tazkarti\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAAAHYAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T19:33:36.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "Tazkarti\\Views\\Home\\AdminLogin.cshtml",
+              "ToolTip": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Views\\Home\\AdminLogin.cshtml",
+              "RelativeToolTip": "Tazkarti\\Views\\Home\\AdminLogin.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T22:13:16.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Tazkarti\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Backend .net\\ITI project\\Tazkarti\\Tazkarti\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Tazkarti\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T19:30:03.164Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

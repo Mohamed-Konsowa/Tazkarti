@@ -1,0 +1,42 @@
+﻿@model List<Ticket>
+@{
+    int x = 1;
+}
+<div class="text-center">
+    <h1 class="display-4">Admin Dashboard</h1>
+    <a href="/home/addnew">Add New</a>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>vs</th>
+                <th>Place</th>
+                <th>Time</th>
+                <th>Price</th>
+                <th>Number of Tickets</th>
+                <th></th>
+
+            </tr>
+        </thead>
+        @foreach (var t in Model)
+        {
+            <tbody>
+                <tr>
+                    <th scope="row">@x</th>
+                    <td><bold>@t.First_team</bold>vs<bold>@t.Second_team</bold></td>
+                    <td>@t.Stade . Stadium,@t.City</td>
+                    <td>@t.Time</td>
+                    <td>@t.Price L.E</td>
+                    <td>@t.NumOfTickets</td>
+                    <td>
+                        <a href="/home/update/@t.Id"><button type="button" class="btn btn-primary">Update</button></a>
+                        <a href="/home/delete/@t.Id"><button type="button" class="btn btn-danger">Delete</button></a>
+                    </td>
+                </tr>
+            </tbody>
+            x++;
+        }
+    </table>
+
+</div>
